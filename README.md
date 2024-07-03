@@ -4,7 +4,7 @@
 
 `Vinícius Miranda de Araujo`
 
-- Meu repositório "principal" : [vinimiraa](https://github.com/vinimiraa/CC-PUCMG/tree/main/AEDs/AEDs_I)
+- Meu repositório "principal" : [vinimiraa](https://github.com/vinimiraa/CC-PUCMG)
 
 ## 📝 Descrição
 
