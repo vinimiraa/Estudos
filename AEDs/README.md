@@ -67,24 +67,6 @@ Pessoalmente, acho ele melhor para explicar do que o Felipe.
 
 - Felipe (Laboratório)  (2024/1) : Ele que é responsável pelas questões dos TPs no Verde.
 
-## Dicas
-
-1. **Seja Organizado**: Mantenha seus materiais organizados. Uma pasta específica para as anotações das aulas pode ser muito útil.
-
-2. **Estude a Teoria**: Entenda os conceitos. A teoria é a base de tudo, com uma boa base implementar código fica mais fácil.
-
-3. **Faça os Exercícios**: Programação só é possível aprender programando, então faça os exercícios.
-
-4. **Não Tenha Medo de Perguntar**: Pergunte ao professor sempre que tiver dúvidas. Os professores são muito aberto a perguntas
-com certaza iram responder.
-
-5. **Não Deixe para a Última Hora**: Nunca deixe para estudar na véspera porque a matéria geralmente é díficl de aprender
-toda de uma vez, é um processo.
-
-6. **Não Copie**: Para realmente aprender é apenas fazendo código, então não copie ou fique olhando fazerem, faça você.
-
-7. **Não Desista**: A matéria é difícil, mas não é impossível, com persistência você conseguirá passar.
-
 ## Links Úteis
 
 - **[Algoritmos e Fluxogramas por André Backes](https://www.facom.ufu.br/~backes/gci007/Aula02-AlgoritmosFluxogramas.pdf)**:
