@@ -16,7 +16,7 @@ Esta pasta contém meus estudos, dicas e outras informações relacionadas à ma
 
 ## 📁 ACs
 
-Esta pasta contém meus estudo relacionadas à matéria de [Arquitetura de Computadores](/ACs/README.md).
+Esta pasta contém meus estudo relacionadas à matéria de [Arquitetura de Computadores](/ACs/).
 
 ## 📁 Provas
 
