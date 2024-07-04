@@ -537,4 +537,6 @@ Exemplo:
     
     11111011(2) = 11111010(2) = 00000101(2) = -5(10)
 
+Próximo Assunto : [Álgebra de Boole](/ACs/Resumos/Algebra_de_Boole.md)
+
 # Fim

@@ -184,7 +184,7 @@ Resumidamente as relações em uma tabela também poderão ser indicadas :
         |                          |                        |                                                   |
         |--------------------------|------------------------|---------------------------------------------------|
         | Complementar             | Absorção               | Consenso                                          |
-        | p + p' = 1 (tautologia)  | p + (p' • q) = (p + q) | (p • q) + (p'• r) + (q • r) = (p • q) + (p' • r) |
+        | p + p' = 1 (tautologia)  | p + (p' • q) = (p + q) | (p • q) + (p'• r) + (q • r) = (p • q) + (p' • r)  |
         | p • p' = 0 (contradição) | p'+ (p • q) = (p'+ q)  | (p + q) • (p + r) • (q + r) = (p + q) • (p + r)   |
         | p'' = p (dupla negação)  | p + (p • q) = p        |                                                   |
         +--------------------------+------------------------+---------------------------------------------------+
@@ -865,5 +865,7 @@ um bit de diferença (distância de Hamming = 1).
          |110 ______|_111
          | /        | /  dH=1
         010 ______ 011
+
+Próximo Assunto : [Circuitos Lógicos](/ACs/Resumos/Circuitos_Logicos.md)
 
 # Fim
