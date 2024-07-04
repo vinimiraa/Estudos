@@ -12,18 +12,18 @@ Repositório dedicado aos resumos, código, provas e minhas configurações dura
 
 ## 📁 AEDs
 
-Esta pasta contém meus estudos, dicas e outras informações relacionadas à matéria de [Algoritmos e Estruturas de Dados](/AEDs/README.md).
+Esta pasta contém meus estudos, dicas e outras informações relacionadas à matéria de [Algoritmos e Estruturas de Dados](/AEDs/).
 
 ## 📁 ACs
 
-Esta pasta contém meus estudo relacionadas à matéria de [Arquitetura de Computadores](/ACs/README.md).
+Esta pasta contém meus estudo relacionadas à matéria de [Arquitetura de Computadores](/ACs/).
 
 ## 📁 Provas
 
-Esta pasta contém as minhas fotos de [Provas](/Provas/README.md).
+Esta pasta contém as minhas fotos de [Provas](/Provas/).
 
 ## 📁 Config
 
-Esta pasta contém minhas [Configurações](/Config/README.md) e outras coisas para desenvolvimento.
+Esta pasta contém minhas [Configurações](/Config/) e outras coisas para desenvolvimento.
 
 `FIM`
