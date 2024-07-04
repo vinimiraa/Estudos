@@ -21,7 +21,7 @@ Para compilar e executar os programas em C, siga as instruções abaixo:
 1. **Entrar na pasta** :
 
     ```sh
-    cd AEDs/Algoritmos_de_Ordenacao/C
+    cd AEDs/Algoritmos\ de\ Ordenacao/C
     ```
 
 2. **Compilar** :
@@ -59,7 +59,7 @@ Para compilar e executar os programas em Java, siga as instruções abaixo:
 1. **Entrar na pasta** :
 
     ```sh
-    cd AEDs/Algoritmos_de_Ordenacao/Java
+    cd AEDs/Algoritmos\ de\ Ordenacao/Java
     ```
 
 2. **Compilar** :

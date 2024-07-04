@@ -6,7 +6,7 @@ Mais coisas lá no meu repositório: [vinimiraa](https://github.com/vinimiraa/CC
 
 ## Resumos
 
-Resumos que fiz durante o semestre para estudar os conceitos de Arquitetura.
+Resumos que fiz durante o semestre para estudar os conceitos de Arquitetura. Os resumos seguem a Ordem abaixo:
 
 - [Sistemas de Numeração](/ACs/Resumos/Sistemas_de_Numeracao.md)
 - [Álgebra de Boole](/ACs/Resumos/Algebra_de_Boole.md)
