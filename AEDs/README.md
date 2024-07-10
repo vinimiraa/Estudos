@@ -28,6 +28,8 @@ O AEDs1 com Theldo, assim como ele mesmo fala, não é AEDs1, é AEDs1.5, por is
 
 [Meu Repositório AEDs2](https://github.com/vinimiraa/CC-PUCMG/tree/main/AEDs/AEDs_II)
 
+Se quiser dar uma olhada melhor em outro repositório que é mais completo, segue o link: [Repositório do Gius](https://github.com/giusfds/AEDS-II/).
+
 [Repositório AEDs2 ICEI](https://github.com/icei-pucminas/aeds2)
 
 AEDs2 aprofunda o estudo das estruturas de dados e algoritmos, com ênfase em análise de complexidade e implementação prática.
