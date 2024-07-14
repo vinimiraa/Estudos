@@ -2,6 +2,12 @@
 
 Esta pasta contém meus estudos, dicas e outras informações relacionadas à matéria de Algoritmos e Estruturas de Dados.
 
+- [Algoritmos de Ordenação](/AEDs/Algoritmos%20de%20Ordenacao/)
+- [Bibliotecas](/AEDs/Bibliotecas/)
+- [Estruturas de Dados](/AEDs/Estruturas%20de%20Dados/)
+- [Sobre AEDs-I](#aeds1)
+- [Sobre AEDs-II](#aeds2)
+
 ## AEDs1
 
 [Meu Repositório AEDs1](https://github.com/vinimiraa/CC-PUCMG/tree/main/AEDs/AEDs_I)
@@ -26,11 +32,11 @@ O AEDs1 com Theldo, assim como ele mesmo fala, não é AEDs1, é AEDs1.5, por is
 
 ## AEDs2
 
-[Meu Repositório AEDs2](https://github.com/vinimiraa/CC-PUCMG/tree/main/AEDs/AEDs_II)
+Meu repositório de [AEDs2](https://github.com/vinimiraa/CC-PUCMG/tree/main/AEDs/AEDs_II)!
 
-Se quiser dar uma olhada melhor em outro repositório que é mais completo, segue o link: [Repositório do Gius](https://github.com/giusfds/AEDS-II/).
+Se quiser dar uma olhada melhor em outro repositório com mais informações, segue o link: [Repositório do Gius](https://github.com/giusfds/AEDS-II/).
 
-[Repositório AEDs2 ICEI](https://github.com/icei-pucminas/aeds2)
+Repositório de [AEDs2 do ICEI](https://github.com/icei-pucminas/aeds2)!
 
 AEDs2 aprofunda o estudo das estruturas de dados e algoritmos, com ênfase em análise de complexidade e implementação prática.
 A teoria começa a ficar um pouco mais apronfundada e prática mais ainda, assim torna-se essencial ter uma boa base geral
