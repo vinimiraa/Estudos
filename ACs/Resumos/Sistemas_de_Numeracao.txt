@@ -1,4 +1,4 @@
-# 📜Informações
+# Informações
 
 PONTIFÍCIA UNIVERSISADE CATÓLICA DE MINAS GERAIS
 
@@ -10,23 +10,23 @@ Matéria : Arquitetura de Computadores I
 
 Ano : 2024
 
-## 📑 Estrutura do Documento
+## Estrutura do Documento
 
-- [Sistemas de Numeração](#sistemas-de-numeração)
-  - [Conversão Entre Bases](#conversão-entre-bases)
-    - [Parte Inteira](#parte-inteira)
-    - [Parte Fracionária](#parte-fracionária)
-  - [Operações Aritméticas](#operações-aritméticas)
-    - [Adição](#adição)
-    - [Subtração](#subtração)
-    - [Multiplicação](#multiplicação)
-    - [Divisão](#divisão)
-  - [Representação de Dados](#representação-de-dados)
-    - [Complemento de 1](#complemento-de-1)
-    - [Complemento de 2](#complemento-de-2)
-- [FIm](#fim)
+- Sistemas de Numeração
+  - Conversão Entre Bases
+    - Parte Inteira
+    - Parte Fracionária
+  - Operações Aritméticas
+    - Adição
+    - Subtração
+    - Multiplicação
+    - Divisão
+  - Representação de Dados
+    - Complemento de 1
+    - Complemento de 2
+- FIm
 
-# 🧮 Sistemas de Numeração
+# Sistemas de Numeração
 
 ## Conversão Entre Bases
 
@@ -119,33 +119,32 @@ Ano : 2024
         A3(16) = (A=10)x16^1 + 3x16^0  - número na base 16 forma canônica 
                =        160  +  3      = 163(10)
 
->[!TIP]
->  
->**Converter entre bases potências múltiplas sem passar para decimal:**
->
->As bases que sâo potências múltiplas de outra compartilham propriedades especiais, como a
->possibilidade de conversões entre elas, sem passar pela base decimal:
->
->Obs: Caso necessário, completar com zeros para formar os grupos.
->
->- Sistema `binário` ( base = 2 ) para `quaternário` ( base = 4 = 2^2 ) :  
->
->       Agrupar de 2 em 2 e substituir pelos dígitos equivalentes :
->
->       1010 0011(2) = [10] [10] [00] [11] (4) = 2203(4)
->
->- Sistema `binário` ( base = 2 ) para `octal` ( base = 8= 2^3 ):
->
->       Agrupar de 3 em 3 e substituir pelos dígitos equivalentes :
->
->       1010 0011(2) = [010] [100] [011] (8) = 243(8)
->
->- Sistema `binário` ( base = 2 ) para `hexadecimal` ( base = 16 =2^4 ):  
->
->       Agrupar de 4 em 4 e substituir pelos dígitos equivalentes :
->
->       1010 0011(2) = [1010] [0011] (16) = A3(16) e A(16)=10
->
+- Dica!
+        
+        Converter entre bases potências múltiplas sem passar para decimal:
+
+        As bases que sâo potências múltiplas de outra compartilham propriedades especiais, como a
+        possibilidade de conversões entre elas, sem passar pela base decimal:
+
+        Obs: Caso necessário, completar com zeros para formar os grupos.
+
+        - Sistema `binário` ( base = 2 ) para `quaternário` ( base = 4 = 2^2 ) :  
+
+               Agrupar de 2 em 2 e substituir pelos dígitos equivalentes :
+
+               1010 0011(2) = [10] [10] [00] [11] (4) = 2203(4)
+
+        - Sistema `binário` ( base = 2 ) para `octal` ( base = 8= 2^3 ):
+
+               Agrupar de 3 em 3 e substituir pelos dígitos equivalentes :
+
+               1010 0011(2) = [010] [100] [011] (8) = 243(8)
+
+        - Sistema `binário` ( base = 2 ) para `hexadecimal` ( base = 16 =2^4 ):  
+
+               Agrupar de 4 em 4 e substituir pelos dígitos equivalentes :
+
+               1010 0011(2) = [1010] [0011] (16) = A3(16) e A(16)=10
 
 ### Parte Fracionária
 
@@ -357,11 +356,10 @@ cada algarismo pela potência negativa da base equivalente à posição:
          _________        _________        ____________       _______________       _________ 
               0(2)             0(2)              1 0(2)        100   1  10(2)       100110(2)  ← resultado 
 
-> [!NOTE]
->
->Quando se "toma emprestado" na potência seguinte, um valor unitário é debitado na potência que "empresta",
->é “creditado” na potência que o recebe, compensada a diferença entre essas potências.
->
+- Nota!
+
+        Quando se "toma emprestado" na potência seguinte, um valor unitário é debitado na potência que "empresta",
+        é “creditado” na potência que o recebe, compensada a diferença entre essas potências.
 
 ### Multiplicação
 
@@ -537,4 +535,4 @@ Exemplo:
     
     11111011(2) = 11111010(2) = 00000101(2) = -5(10)
 
-# Fim
+[FIM]

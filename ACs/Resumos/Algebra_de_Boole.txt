@@ -1,4 +1,4 @@
-# 📜Informações
+# Informações
 
 PONTIFÍCIA UNIVERSISADE CATÓLICA DE MINAS GERAIS
 
@@ -10,55 +10,55 @@ Matéria : Arquitetura de Computadores I
 
 Ano : 2024
 
-## 📑 Estrutura do Documento
+## Estrutura do Documento
 
-- [Álgebra de Boole](#álgebra-de-boole)
-  - [Introdução](#introdução)
-  - [Representação de Relações Lógicas](#representações-de-relações-lógicas)
-  - [Prioridade de Conectivos](#prioridade-de-conectivos)
-  - [Principais Relações da Álgebra de Boole](#principais-relações-da-álgebra-de-boole)
-  - [Principais Propriedades da Álgebra de Boole](#principais-propriedades-da-álgebra-de-boole)
-  - [Principais Propriedades da Álgebra com XOR](#principais-propriedades-da-álgebra-com-xor)
-  - [Universalidade das portas NAND e NOR](#universalidade-das-portas-nand-e-nor)
-  - [Gramática para Sintaxe de Expressões](#gramática-para-sintaxe-de-expressões)
-  - [Universalidade das portas NAND e NOR](#universalidade-das-portas-nand-e-nor)
-  - [Gramática para Sintaxe de Expressões](#gramática-para-sintaxe-de-expressões)
-  - [Simplificações de Expressões Lógicas e Circuitos](#simplificações-de-expressões-lógicas-e-circuitos)
-    - [Distância Hamming](#distância-hamming)
-    - [Código de Gray](#código-de-gray)
-    - [Mapa de Veitch-Karnaugh](#mapa-de-veitch-karnaugh)
-    - [Método de Quine-McCluskey](#método-de-quine-mccluskey)
-    - [Método de Reed-Müller](#método-de-reed-müller)
-    - [Representações Gráficas](#representações-gráficas)
-- [FIm](#fim)
+- Álgebra de Boole
+  - Introdução
+  - Representação de Relações Lógicas
+  - Prioridade de Conectivos
+  - Principais Relações da Álgebra de Boole
+  - Principais Propriedades da Álgebra de Boole
+  - Principais Propriedades da Álgebra com XOR
+  - Universalidade das portas NAND e NOR
+  - Gramática para Sintaxe de Expressões
+  - Universalidade das portas NAND e NOR
+  - Gramática para Sintaxe de Expressões
+  - Simplificações de Expressões Lógicas e Circuitos
+    - Distância Hamming
+    - Código de Gray
+    - Mapa de Veitch-Karnaugh
+    - Método de Quine-McCluskey
+    - Método de Reed-Müller
+    - Representações Gráficas
+- FIm
 
 # Álgebra de Boole
 
 ## Introdução
 
-Em Matemática, chama-se ***proposição*** ao enunciado de uma verdade que se quer demonstrar, ou como usaremos: uma
+Em Matemática, chama-se *proposição* ao enunciado de uma verdade que se quer demonstrar, ou como usaremos: uma
 sentença que pode ser falsa (0), ou verdadeira (1), mas nunca ambos ao mesmo tempo.
 
-A conjunção é uma relação entre sentenças que estabelece um resultado **verdadeiro** (1) quando associadas duas
-proposições (p e q), ambas **verdadeiras** ( iguais a 1 ). Basta uma delas ser **falsa** (0), para que a conjunção (s)
-também seja **falsa** (0).
+A conjunção é uma relação entre sentenças que estabelece um resultado verdadeiro (1) quando associadas duas
+proposições (p e q), ambas verdadeiras ( iguais a 1 ). Basta uma delas ser falsa (0), para que a conjunção (s)
+também seja falsa (0).
 
-A porta **AND** ( E ) é um componente de circuito lógico que implementa essa relação; pode ter duas (p, q), ou mais
-entradas, e a saída (s) assumirá o valor 1 ( **verdadeiro** ) se, e somente se, todas as entradas forem iguais a 1
-(**verdadeiras** ); caso uma, ou mais entradas forem iguais a 0 ( **falso** ), a saída terá valor igual a 0 ( **falso** ).
+A porta AND ( E ) é um componente de circuito lógico que implementa essa relação; pode ter duas (p, q), ou mais
+entradas, e a saída (s) assumirá o valor 1 ( verdadeiro ) se, e somente se, todas as entradas forem iguais a 1
+(verdadeiras ); caso uma, ou mais entradas forem iguais a 0 ( falso ), a saída terá valor igual a 0 ( falso ).
 
-A disjunção é uma relação entre sentenças que estabelece um resultado **falso** (0) quando duas proposições (p e q)
-forem **falsas** (0). Basta uma delas ser **verdadeira** (1), para que a disjunção também seja **verdadeira** (1).
+A disjunção é uma relação entre sentenças que estabelece um resultado falso (0) quando duas proposições (p e q)
+forem falsas (0). Basta uma delas ser verdadeira (1), para que a disjunção também seja verdadeira (1).
 
-A porta **OR** ( OU ) é um componente de circuito lógico que implementa essa relação; pode ter duas (p, q), ou mais 
-entradas, e a saída (s) assumirá o valor 0 (**falso**) se, e somente se, todas as entradas forem iguais a 0 (**falso**);
-caso uma, ou mais entradas forem iguais a 1 (**verdadeiro**), a saída terá valor 1 (**verdadeiro**).
+A porta OR ( OU ) é um componente de circuito lógico que implementa essa relação; pode ter duas (p, q), ou mais 
+entradas, e a saída (s) assumirá o valor 0 (falso) se, e somente se, todas as entradas forem iguais a 0 (falso);
+caso uma, ou mais entradas forem iguais a 1 (verdadeiro), a saída terá valor 1 (verdadeiro).
 
-A negação determina que se uma proposição (p) for **falsa** (0), seu resultado será **verdadeiro** (1), ou vice-versa.
+A negação determina que se uma proposição (p) for falsa (0), seu resultado será verdadeiro (1), ou vice-versa.
 
-A porta **NOT** ( NÃO ) é um componente de circuito lógico que implementa essa relação, também chamada de **INVERTER**
-( INVERSOR ), só possui uma entrada (p), e a saída assumirá o valor 1 ( **verdadeiro** ), se a entrada for igual a 0
-( **falso** ); senão, a saída terá valor 0 ( **falso** ), se a entrada for igual a 1 ( **verdadeiro** ).
+A porta NOT ( NÃO ) é um componente de circuito lógico que implementa essa relação, também chamada de INVERTER
+( INVERSOR ), só possui uma entrada (p), e a saída assumirá o valor 1 ( verdadeiro ), se a entrada for igual a 0
+( falso ); senão, a saída terá valor 0 ( falso ), se a entrada for igual a 1 ( verdadeiro ).
 
 ## Representações de Relações Lógicas
 
@@ -134,7 +134,7 @@ Resumidamente as relações em uma tabela também poderão ser indicadas :
         | 2 | x • y' | 1 0 |    0    |    1     |       1       |  m2 = x • y' = 2 ←
         | 3 | x • y  | 1 1 |    0    |    0     |       0       |  m3 = x • y  = 3
 
-    f (x, y ) = (x'•y)+(x•y') = m1 + m2 = **∑** m(1,2) = SoP(1,2)
+    f (x, y ) = (x'•y)+(x•y') = m1 + m2 = ∑ m(1,2) = SoP(1,2)
 
 - Pela conjunção ( • ) das disjunções  iguais a 0 ( ou MAXTERMOS ).
 
@@ -145,7 +145,7 @@ Resumidamente as relações em uma tabela também poderão ser indicadas :
         | 2 | X'+Y  | 1 0 |   0    |    1   |       1       |  M2 = X' + Y  = 2
         | 3 | X'+Y' | 1 1 |   0    |    0   |       0       |  M3 = X' + Y' = 3 ←
 
-    F (X, Y ) = (X+Y) • (X'+Y') = M0 • M3 = **π** M(0,3) = PoS(0,3)
+    F (X, Y ) = (X+Y) • (X'+Y') = M0 • M3 = π M(0,3) = PoS(0,3)
 
 ## Principais Relações da Álgebra de Boole
 
@@ -458,9 +458,9 @@ um bit de diferença (distância de Hamming = 1).
 >caso a distância de Hamming for maior que 1 (dH>1).
 >
 
-- Método de **Simplificação** :
+- Método de Simplificação :
 
-- Por **Mintermos** :
+- Por Mintermos :
 
                 Exemplo:
                             0        1       2        6   
@@ -504,7 +504,7 @@ um bit de diferença (distância de Hamming = 1).
                 DNF - Disjunctive Normal Form (SoP) 
                 CNF - Conjunctive Normal Form (PoS)
 
-- Por **MAXTERMOS** :
+- Por MAXTERMOS :
 
         Exemplo:
         
@@ -580,7 +580,7 @@ um bit de diferença (distância de Hamming = 1).
 
 ### Método de Quine-McCluskey
 
-- Exemplo para **mintermos** :
+- Exemplo para mintermos :
 
 1. Agrupar valores segundo a quantidade de bits iguais a 1 (para facilitar a identificação de grupos com dH=1) :
 
@@ -866,4 +866,4 @@ um bit de diferença (distância de Hamming = 1).
          | /        | /  dH=1
         010 ______ 011
 
-# Fim
+[FIM]
