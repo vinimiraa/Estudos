@@ -9,5 +9,6 @@ Mais coisas lá no meu repositório: [vinimiraa](https://github.com/vinimiraa/CC
 - **images**: Imagens e esquemas utilizados nas aulas e estudos.
 - **Logisim**: Projetos e circuitos digitais simulados usando o Logisim.
 - **Resumos**: Resumos sobre conceitos chave da disciplina.
+- **Programas**: Executáveis de programas comumente utilizados.
 
 `FIM`
