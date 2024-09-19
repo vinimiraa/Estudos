@@ -4,7 +4,6 @@ Aqui estão resumos e notas sobre a disciplina de **Linguagens de Programação*
 
 ### Resumos:
 
-- **Resumo.md**: Resumo em formato markdown.
-- **Resumo.txt**: Resumo em formato de texto simples.
+- **Resumo.md**: Resumo de toda a matéria até a primeira prova.
 
 `FIM`
