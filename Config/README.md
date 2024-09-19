@@ -1,16 +1,15 @@
-# Config
+# ⚙️ Configurações de Desenvolvimento
 
-Algumas configurações e outras coisas importantes para desenvolvimento.
+Esta pasta contém arquivos de configuração e documentação para diferentes ferramentas e ambientes de desenvolvimento.
 
-- [Comandos Básicos de Linux](/Config/Comandos_Linux.pdf)
+### Conteúdo:
 
-- [Compiladores para C/Java/Verilog](/Config/Compliladores.md)
+- **Comandos_Linux.pdf**: PDF com uma lista de comandos úteis para o ambiente Linux.
+- **Compiladores.md**: Documento explicando o uso e configuração de compiladores.
+- **Controle_Versoes_Por_Git.pdf**: Tutorial sobre Git e controle de versões.
+- **settings.json**: Arquivo de configuração para o VS Code.
 
-- [Versionamento de Código pelo GitHub](/Config/Controle_Versoes_Por_Git.pdf)
-
-- [Minhas User Settings (JSON) do VSCode](/Config/settings.json)
-
-- Extensões que Utilizo no VSCode:
+- **Extensões que Utilizo no VSCode**:
 
   - `Material Icon Theme`, Philipp Kief
   - `indent-rainbow`, oderwat

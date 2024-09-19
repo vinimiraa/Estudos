@@ -1,29 +1,39 @@
-# 🤓 Estudos
+# 🤓 Repositório de Estudos
 
 ## 👨‍💻 Autor
 
-`Vinícius Miranda de Araujo`
+**Vinícius Miranda de Araujo**
 
-- Meu repositório "principal" : [vinimiraa](https://github.com/vinimiraa/CC-PUCMG)
+- Meu repositório principal: [vinimiraa](https://github.com/vinimiraa/CC-PUCMG)
 
 ## 📝 Descrição
 
-Repositório dedicado aos resumos, código, provas e minhas configurações durante a faculdade. 
+Este repositório contém materiais de estudo organizados por disciplinas e tópicos. Inclui resumos, implementações de algoritmos, PDFs de apoio, arquivos de configuração e muito mais. É um espaço onde concentro o que aprendi durante minha trajetória acadêmica.
 
-## 📁 AEDs
+## 📂 Estrutura do Repositório
 
-Esta pasta contém meus estudos, dicas e outras informações relacionadas à matéria de [Algoritmos e Estruturas de Dados](/AEDs/).
+### 📁 [ACs](/ACs/)
 
-## 📁 ACs
+Estudos e materiais sobre **Arquitetura de Computadores**. Inclui resumos, esquemas do Logisim, e outras imagens ilustrativas.
 
-Esta pasta contém meus estudo relacionadas à matéria de [Arquitetura de Computadores](/ACs/).
+### 📁 [AEDs](/AEDs/)
 
-## 📁 Provas
+Códigos e resumos relacionados a **Algoritmos e Estruturas de Dados**. Esta pasta inclui implementações de algoritmos de ordenação e estruturas de dados, além de bibliotecas úteis.
 
-Esta pasta contém as minhas fotos de [Provas](/Provas/).
+### 📁 [C2](/C2/)
 
-## 📁 Config
+Materiais da disciplina **Cálculo 2**.
 
-Esta pasta contém minhas [Configurações](/Config/) e outras coisas para desenvolvimento.
+### 📁 [Config](/Config/)
+
+Arquivos de configuração e documentações sobre comandos e ferramentas usadas no desenvolvimento, como configurações de Git e comandos do Linux.
+
+### 📁 [LP](/LP/)
+
+Resumos de **Linguagens de Programação** (LP).
+
+### 📁 [Provas](/Provas/)
+
+Fotos e arquivos de provas realizadas durante o curso.
 
 `FIM`

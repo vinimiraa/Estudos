@@ -1,16 +1,13 @@
-# 🖥️ Arquitetura de Computadores
+# 🖥️ Arquitetura de Computadores (ACs)
 
-Esta pasta contém meus estudo relacionadas à matéria de Arquitetura de Computadores.
+Esta pasta contém materiais de estudo da disciplina de **Arquitetura de Computadores**.
 
 Mais coisas lá no meu repositório: [vinimiraa](https://github.com/vinimiraa/CC-PUCMG/tree/main/ACs/AC_I)
 
-## Resumos
+### Estrutura:
 
-Resumos que fiz durante o semestre para estudar os conceitos de Arquitetura. Os resumos seguem a Ordem abaixo:
-
-- [Sistemas de Numeração](/ACs/Resumos/Sistemas_de_Numeracao.md)
-- [Álgebra de Boole](/ACs/Resumos/Algebra_de_Boole.md)
-- [Circuitos Lógicos](/ACs/Resumos/Circuitos_Logicos.md)
-- Tenho que terminar ainda :p
+- **images**: Imagens e esquemas utilizados nas aulas e estudos.
+- **Logisim**: Projetos e circuitos digitais simulados usando o Logisim.
+- **Resumos**: Resumos sobre conceitos chave da disciplina.
 
 `FIM`
