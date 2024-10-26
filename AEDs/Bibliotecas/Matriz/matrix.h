@@ -2,15 +2,6 @@
  *  ----------------------------------------------------------------------------
  *  Biblioteca Matrix em C - "matrix.h"
  *  ----------------------------------------------------------------------------
- *  Copyright (c) 2023, Vinicius Miranda de Araujo
- *  Todos os direitos reservados.
- *  
- *  Este código fonte é propriedade exclusiva de Vinicius Miranda de Araujo e não pode ser
- *  copiado, modificado, distribuído, ou sublicenciado por qualquer outra pessoa
- *  sem autorização expressa por escrito do autor. O uso deste código está
- *  sujeito aos termos e condições estabelecidos no contrato de licença, se fornecido,
- *  ou, na ausência de tal contrato, pelos termos padrão da Licença MIT.
- *  ----------------------------------------------------------------------------
 */
 
 // ---------------------- lista de dependencias
