@@ -1,0 +1,31 @@
+Linguagens de Programação
+Prova 02 - 15 pontos
+Professor Marco Rodrigo Costa
+
+Questão 01 (03 pontos - 20 minutos): Explique o Princípio da Correspondência. Dê um exemplo de código, em qualquer LP.
+
+Questão 02 (04 pontos - 20 minutos): Escolha uma Linguagem de Programação apresentada em nossos seminários, que não
+tenha sido apresentada por você ou seu grupo. Informe seu paradigma de programação predominante, caracterizando-o e
+especificando pelo menos duas características marcantes da LP.
+
+Questão 03 (06 pontos - 25 minutos): Considerando o seguinte trecho de programa:
+
+...
+int teste (int x) {   "(1)"
+	x = 1;            "(2)"
+	x = x + 1;        "(3)"
+	return (x);     
+}
+
+y = 10; z = teste(y); "(4)"
+...
+
+Considerando o momento de execução (runtime), e que 'y' está definido no mesmo ambiente de "teste", diga quais os
+valores de 'x' e 'y' nos pontos (1), (2), (3) e (4) do trecho acima, considerando:
+
+a) Passagem de parâmetro por valor-resultado (by value-resul);
+b) Passagem de parâmetro por variável ou por referência (by reference);
+
+
+// EOF
+
