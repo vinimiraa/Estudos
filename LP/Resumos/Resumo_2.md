@@ -1,7 +1,8 @@
 # Resumo de Linguagens de Programação
 
 ## Estrutura do Documento
-- Abstração
+
+- [Abstração](#abstração)
     - O que é
     - Tipos
     - Princípio
@@ -9,7 +10,7 @@
     - Mecanismos de Avaliação
     - Funções Estritas e Não Estritas
     - Vantagens da Abstração
-- Encapsulamento
+- [Encapsulamento](#encapsulamento)
     - O que é
     - Pacotes e Modulos
     - Ocultamento de informações
@@ -94,7 +95,7 @@ permite focar no que um programa faz, sem se preocupar com os detalhes de como i
         mecanismos de cópia. Assim, a escolha é uma decisão importante para o projetista da linguagem.
 
     - **Princípio da Correspondência**: para cada forma de declaração, existe um mecanismo de passagem de parâmetro e 
-    vice-versa.
+    vice-versa, em outras palavras qualquer declação pode ser passada como parâmetro para uma função ou procedimento.
 
 5. **Mecanismos de Avaliação**:
 
