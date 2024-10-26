@@ -27,7 +27,7 @@ apresentado no enunciado acima.
 
 3. Linguagem de Consulta
 
-[IMAGEM BANCO DE DADOS SAM v1.0 MODELO LÓGICO: https://github.com/wladbrandao/DBSystems/blob/master/relational/specs/SAM/SAM.pdf]
+[IMAGEM BANCO DE DADOS SAM v1.0 PROJETO LÓGICO - MODELO RELACIONAL: https://github.com/wladbrandao/DBSystems/blob/master/relational/specs/SAM/SAM.pdf]
 
 Figura 1: SAM v1.0
 
