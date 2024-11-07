@@ -12,6 +12,3 @@
 | **ADA**           | 2.4      |
 | **Nota final**    | 70.7     |
 
-## Obs
-
-Infelizmente não tenho fotos da terceira prova.

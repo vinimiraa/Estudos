@@ -12,3 +12,7 @@
 | **Desempenho**          | 11       |
 | **ADA**                 | 2.4      |
 | **Nota final**          | 67       |
+
+## Obs
+
+Minhas provas práticas estão bem ruins, então não leve meu código de resolução muito em conta ~~kkkkrying~~.
