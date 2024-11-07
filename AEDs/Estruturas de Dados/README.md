@@ -1,6 +1,7 @@
 # 🎲 Estruturas de Dados
 
 Nesta pasta estão diversas estruturas de dados estudadas durante as aulas de AEDs2, organizadas em pastas para `C` e `Java`.
+Vale ressaltar que a maioria dos algoritmos em `C`estão melhor implementados do que em `Java`.
 
 ## Árvores
 
