@@ -1,9 +1,5 @@
 # 📝 Provas
 
-Esta pasta contém fotos e arquivos relacionados às provas realizadas ao longo do curso.
-
-### Matérias e Professores
-
 | Matéria                                              | Professor(a)               | Semestre |
 |------------------------------------------------------|----------------------------|----------|
 | [Algoritmos e Estruturas de Dados 1](/Provas/AEDs1/) | Theldo Cruz Franqueira     |  2023/2  |
@@ -17,5 +13,4 @@ Esta pasta contém fotos e arquivos relacionados às provas realizadas ao longo 
 | [Linguagens de Programação](/Provas/LP/)             | Marco Rodrigo              |  2024/2  |
 | [Banco de Dados](/Provas/BD)                         | Wladimir Brandão           |  2024/2  |
 
-
-`FIM`
+### FIM

@@ -162,8 +162,8 @@ sinal de ativação ou sequenciamento (clock) para vários circuitos.
 ### Somadores
 
 - Somador de 2 bits ( "meia-soma" ou "meio-somador" ou "half-adder" ) :
-
-![Meia Soma](/ACs/images/half_adder.png)
+Resumos\AC_I\images
+![Meia Soma](/Resumos/AC_I/images/half_adder.png)
 
       - Equações características :
 
@@ -195,7 +195,7 @@ sinal de ativação ou sequenciamento (clock) para vários circuitos.
 
 - Somador de 3 bits ( "somador completo em cascata" ou "ripple-carry adder" ) :
 
-![Soma Completa](/ACs/images/full_adder.png)
+![Soma Completa](/Resumos/AC_I/images/full_adder.png)
 
       - Definição por expressão :
 
@@ -226,11 +226,11 @@ sinal de ativação ou sequenciamento (clock) para vários circuitos.
 
 - Subtrator de 2 bits ( "meia-diferença" ou "half-difference" )
 
-![Meio Diferença](/ACs/images/half_diff.png)
+![Meio Diferença](/Resumos/AC_I/images/half_diff.png)
 
 - Subtrator de 3 bits ( "subtrator completo" ou "full-difference" ) :
 
-![Diferença Completa](/ACs/images/full_diff.png)
+![Diferença Completa](/Resumos/AC_I/images/full_diff.png)
 
 ## Geração e Controle de Marcação de Tempo
 

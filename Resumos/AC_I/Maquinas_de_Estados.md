@@ -27,11 +27,11 @@ Uma ação é a descrição de uma atividade executada em certo instante.
 Máquinas de estados finitos podem ser usadas para descrever circuitos sequenciais pois suas saídas e seus novos estados 
 são funções de suas entradas e de seus estados atuais.
 
-![Diagrama de Estados](/ACs/images/diagrama_de_estados.png)
+![Diagrama de Estados](/Resumos/AC_I/images/diagrama_de_estados.png)
 
 Considerar um circuito capaz de identificar a sequência binária (1101):
 
-![Diagrama de Estados da Sequência 1101](/ACs/images/seq_1101.png)
+![Diagrama de Estados da Sequência 1101](/Resumos/AC_I/images/seq_1101.png)
 
 ```
 FSM
@@ -68,7 +68,7 @@ estados, antes de emitir alguma saída.
 Na prática, esses dois modelos poderão ser combinados para oferecer uma descrição melhor do funcionamento de uma máquina 
 de estados finitos.
 
-![Mealy e Moore](/ACs/images/mealy_moore.png)
+![Mealy e Moore](/Resumos/AC_I/images/mealy_moore.png)
 
 ```
 Mealy 

@@ -8,32 +8,32 @@
 
 ## 📝 Descrição
 
-Este repositório contém materiais de estudo organizados por disciplinas e tópicos. Inclui resumos, implementações de algoritmos, PDFs de apoio, arquivos de configuração e muito mais. É um espaço onde concentro o que aprendi durante minha trajetória acadêmica.
+Este repositório contém materiais de estudo organizados por disciplinas e tipos de conteúdo. É um espaço central para 
+armazenar resumos, implementações de algoritmos, materiais de apoio, arquivos de configuração, provas e muito mais, 
+coletados ao longo da minha trajetória acadêmica.
 
 ## 📂 Estrutura do Repositório
 
-### 📁 [ACs](/ACs/)
+### 📁 [Resumos](/Resumos/)
 
-Estudos e materiais sobre **Arquitetura de Computadores**. Inclui resumos, esquemas do Logisim, e outras imagens ilustrativas.
+Contém resumos de diversas disciplinas, organizados em subpastas para cada disciplina. Cada pasta inclui tópicos e 
+conceitos principais das matérias.
 
-### 📁 [AEDs](/AEDs/)
+### 📁 [Codigos](/Codigos/)
 
-Códigos e resumos relacionados a **Algoritmos e Estruturas de Dados**. Esta pasta inclui implementações de algoritmos de ordenação e estruturas de dados, além de bibliotecas úteis.
+Pasta central para todos os códigos e implementações de algoritmos.
 
-### 📁 [C2](/C2/)
+### 📁 [Materiais](/Materiais/)
 
-Materiais da disciplina **Cálculo 2**.
+Esta pasta armazena materiais adicionais fornecidos por professores ou materiais de referência que complementam o estudo 
+das disciplinas.
 
 ### 📁 [Config](/Config/)
 
-Arquivos de configuração e documentações sobre comandos e ferramentas usadas no desenvolvimento, como configurações de Git e comandos do Linux.
-
-### 📁 [LP](/LP/)
-
-Resumos de **Linguagens de Programação** (LP).
+Arquivos de configuração e guias relacionados a ferramentas de desenvolvimento e ambiente de estudo.
 
 ### 📁 [Provas](/Provas/)
 
-Fotos e arquivos de provas realizadas durante o curso.
+Fotos e arquivos de provas realizadas ao longo do curso, organizadas por disciplina e avaliação.
 
-`FIM`
+### FIM
