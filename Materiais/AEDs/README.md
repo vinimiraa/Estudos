@@ -1,9 +1,5 @@
 # Algoritmos e Estruturas de Dados (AEDs)
 
-- **AEDs1.zip**: Arquivo `.zip` contendo vários materiais e exercícios disponilizados pelos Professores Naísses e Theldo.
-
-## Links Úteis
-
 - **[Repositório de AEDs-III do Kutova](https://github.com/kutova/AEDsIII)**: Repositório destinado à matéria de AEDs3
 contendo códigos que serão utilizados durante a disciplina. `(AEDs3)`
 
@@ -30,5 +26,9 @@ em AEDs1 e AEDs2. Muitas provas práticas de AEDs2 são baseadas em questões do
 
 - **[CodeForces](https://codeforces.com/problemset)**: Outra excelente plataforma para resolução de problemas de programação,
 similar ao Beecrowd. `(AEDs1 e AEDs2)`
+
+- **[Replits](https://replit.com/)**: Plataformas online onde é possível encontrar exercícios resolvidos e exemplos de código compartilhados por outros usuários, incluindo tópicos abordados em AEDs. Aqui estão alguns perfis recomendados:
+    - [Perfil do Kutova](https://replit.com/@kutova): Contém exemplos práticos e soluções de problemas relacionados a AEDs, incluindo códigos em C e Python.
+    - [Perfil do BigHeadBH](https://replit.com/@bigheadbh): Oferece códigos e soluções para diferentes temas de algoritmos e estruturas de dados, facilitando o entendimento dos conceitos abordados nas disciplinas.
 
 ### FIM
