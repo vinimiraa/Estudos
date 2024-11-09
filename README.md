@@ -1,8 +1,5 @@
 # 🤓 Repositório de Estudos
 
-## 👨‍💻 Autor
-
-**Vinícius Miranda de Araujo**
 
 - Meu repositório principal: [vinimiraa](https://github.com/vinimiraa/CC-PUCMG)
 
@@ -11,6 +8,13 @@
 Este repositório contém materiais de estudo organizados por disciplinas e tipos de conteúdo. É um espaço central para 
 armazenar resumos, implementações de algoritmos, materiais de apoio, arquivos de configuração, provas e muito mais, 
 coletados ao longo da minha trajetória acadêmica.
+
+### ⚠️ IMPORTANTE ⚠️
+
+**É IMPORTANTE DESTACAR QUE TODAS AS FOTOS CONTIDAS NESTA PASTA SÃO DE PROVAS ENTREGUES AOS ALUNOS E FOTOS DAS FOLHAS DE 
+RESPOSTA. ESSE CONTEÚDO NÃO INCLUI, EM HIPÓTESE ALGUMA, MATERIAL QUE É PROIBIDO POR REGRAS DOS PROFESSORES OU DA 
+INSTITUIÇÃO. APENAS PROVAS E RESPOSTAS QUE FORAM PERMITIDAS PELOS PROFESSORES SÃO INCLUÍDAS, RESPEITANDO INTEGRALMENTE 
+AS DIRETRIZES DA DISCIPLINA E DA INSTITUIÇÃO.**
 
 ## 📂 Estrutura do Repositório
 
@@ -35,12 +39,5 @@ Arquivos de configuração e guias relacionados a ferramentas de desenvolvimento
 ### 📁 [Provas](/Provas/)
 
 Fotos e arquivos de provas realizadas ao longo do curso, organizadas por disciplina e avaliação.
-
-### ⚠️ IMPORTANTE ⚠️
-
-**É IMPORTANTE DESTACAR QUE TODAS AS FOTOS CONTIDAS NESTA PASTA SÃO DE PROVAS ENTREGUES AOS ALUNOS E FOTOS DAS FOLHAS DE 
-RESPOSTA. ESSE CONTEÚDO NÃO INCLUI, EM HIPÓTESE ALGUMA, MATERIAL QUE É PROIBIDO POR REGRAS DOS PROFESSORES OU DA 
-INSTITUIÇÃO. APENAS PROVAS E RESPOSTAS QUE FORAM PERMITIDAS PELOS PROFESSORES SÃO INCLUÍDAS, RESPEITANDO INTEGRALMENTE 
-AS DIRETRIZES DA DISCIPLINA E DA INSTITUIÇÃO.**
 
 ### FIM
