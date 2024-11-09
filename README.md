@@ -1,6 +1,5 @@
 # 🤓 Repositório de Estudos
 
-
 - Meu repositório principal: [vinimiraa](https://github.com/vinimiraa/CC-PUCMG)
 
 ## 📝 Descrição
