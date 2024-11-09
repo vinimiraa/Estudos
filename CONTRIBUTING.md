@@ -69,8 +69,3 @@ outros alunos a entenderem.
 - **Dicas de Estudo**: Compartilhe materiais, dicas, ou links úteis sobre uma disciplina.
 - **Correções**: Se encontrar algum erro, seja em código, formatação ou conteúdo, sinta-se à vontade para corrigir.
 
-## 📞 Dúvidas?
-
-Para qualquer dúvida sobre a contribuição, você pode abrir uma **Issue** no repositório ou entrar em contato comigo diretamente pelo GitHub [vinimiraa](https://github.com/vinimiraa).
-
-Obrigado por contribuir e ajudar a construir um repositório de estudos cada vez mais completo e acessível! 
