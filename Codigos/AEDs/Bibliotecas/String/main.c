@@ -1,63 +1,176 @@
+#include <stdio.h>
+#include <string.h>
+#include "str.h"
 
-#include "cstring.h"
-
-/**
- *  @brief Programa principal para testar a biblioteca cstring.
- *  
- *  Compilar com gcc:
- *  
- *  $ gcc main.c cstring.c -o main
- * 
- *  Para executar:
- *  
- *  $ ./main
- * 
- */
-int main ( void ) 
+void test_str_len( void )
 {
-    char* s0 = NULL;
-    char* s1 = "Vinicius Miranda Araujo";
-    char* s2 = ", Vulgo Show";
-    char** s3 = NULL;
-    char* s4 = "9e3f7ce4-b9a7-4244-b709-dae5c1f1d4a8;Harry Potter;['The Boy Who Lived', 'The Chosen One', 'Undesirable No. 1', 'Potty'];Gryffindor;half-blood;human;stag;FALSO;VERDADEIRO;Daniel Radcliffe;VERDADEIRO;[];31-07-1980;1980;green;male;black;VERDADEIRO";
-    char* s5 = "\r\t\n\t\r ABCDEFGH \n\r\t\n\r";
-    char* s6 = "O rato roeu a roupa do rei de Roma.";
+    printf( "\n\n> TEST str_len\n\n" );
 
-    printf("\n%s\n", "// -------------------- CSTRING TESTE -------------------- //");
+    char str[] = "Hello, World!";
+    size_t len = str_len( str );
+    printf( "str_len( \"%s\" ) = %lu\n", str, len );
+} // end test_str_len( )
 
-    printf( "\n// --------------- STRINGS:\n" );
+void test_str_copy( void )
+{
+    printf( "\n\n> TEST str_copy\n\n" );
 
-    printf( "\ns0 = \"%s\"", s0 );
-    printf( "\ns1 = \"%s\"", s1 );
-    printf( "\ns2 = \"%s\"", s2 );
-    printf( "\ns4 = \"%s\"", s4 );
-    printf( "\ns5 = \"%s\"", s5 );
-    printf( "\ns6 = \"%s\"\n", s6 );
+    char str[] = "Hello, World!";
+    char dst[ 20 ];
+    printf( "str_copy( \"%s\", \"%s\" ) = \"%s\"\n", dst, str, str_copy( dst, str ) );
+} // end test_str_copy( )
 
-    printf( "\n// --------------- FUNCOES:\n" );
+void test_str_concat( void )
+{
+    printf( "\n\n> TEST str_concat\n\n" );
 
-    printf("\nstr_len(s0) = %d\n", str_len(s0) );
-    printf("\nstr_len(s1) = %d\n", str_len(s1) );
-    printf("\nstr_charAt(s1, 5) = %c\n", str_charAt(s1, 5) );
-    printf("\nstr_indexOf(s1, 'a') = %d\n", str_indexOf(s1, 'a') );
-    printf("\nstr_lastIndexOf(s1, 'a') = %d\n", str_lastIndexOf(s1, 'a') );
-    printf("\nstr_concat(s1, s2) = %s\n", str_concat(s1, s2) );
-    printf("\nstr_substring(s1, 0, 10) = %s\n", str_substring(s1, 0, 10) );
-    printf("\nstr_trim(s5) = %s\n", str_trim(s5) );
-    printf("\nstr_replace_first(s6, 'o', '0') = %s\n", str_replace_c_first(s6, 'o', '0') );
-    printf("\nstr_replace_last(s6, 'o', '0') = %s\n", str_replace_c_last(s6, 'o', '0')) ;
-    printf("\nstr_replace(s6, 'o', '0') = %s\n", str_replace_c(s6, 'o', '0') );
-    printf("\nstr_contains(s1, \"Miranda\") = %s\n", str_contains(s1, "Miranda") == true ? "true" : "false" );
-    printf("\nstr_equals(s1, \"Vinicius Miranda Araujo\") = %s\n", str_equals(s1, "Vinicius Miranda Araujo") == true ? "true" : "false" );
-    printf("\ns3 = str_split(s4, \';\') :\n");
-    s3 = str_split(s4, ';');
-    int i = 0; 
-    while( *(s3 + i) ) {
-        printf("s3[%2d] = \"%s\"\n", i, s3[i]);
-        i++;
-    } // end while
+    char str1[] = "Hello, ";
+    char str2[] = "World!";
+    printf( "str_concat( \"%s\", \"%s\" ) = \"%s\"\n", str1, str2, str_concat( str1, str2 ) );
+} // end test_str_concat( )
 
-    printf("\n%s\n", "// ---------------------- FIM TESTE ---------------------- //");
+void test_str_char( void )
+{
+    printf( "\n\n> TEST str_char\n\n" );
+
+    char str[] = "Hello, World!";
+    char chr = 'W';
+    printf( "str_char( \"%s\", '%c' ) = \"%s\"\n", str, chr, str_char( str, chr ) );
+} // end test_str_char( )
+
+void test_str_compare( void )
+{
+    printf( "\n\n> TEST str_compare\n\n" );
+
+    char str1[] = "Hello, World!";
+    char str2[] = "Hello, World!";
+    printf( "str_compare( \"%s\", \"%s\" ) = %d\n", str1, str2, str_compare( str1, str2 ) );
+} // end test_str_compare( )
+
+void test_str_first_index_of( void )
+{
+    printf( "\n\n> TEST str_first_index_of\n\n" );
+
+    char str[] = "Hello, World!";
+    char chr = 'o';
+    printf( "str_first_index_of( \"%s\", '%c' ) = %lu\n", str, chr, str_first_index_of( str, chr ) );
+} // end test_str_first_index_of( )
+
+void test_str_last_index_of( void )
+{
+    printf( "\n\n> TEST str_last_index_of\n\n" );
+
+    char str[] = "Hello, World!";
+    char chr = 'o';
+    printf( "str_last_index_of( \"%s\", '%c' ) = %lu\n", str, chr, str_last_index_of( str, chr ) );
+} // end test_str_last_index_of( )
+
+void test_str_substring( void )
+{
+    printf( "\n\n> TEST str_substring\n\n" );
+
+    char str[] = "Hello, World!";
+    size_t start = 7;
+    size_t end = 11;
+    printf( "str_substring( \"%s\", %lu, %lu ) = \"%s\"\n", str, start, end, str_substring( str, start, end ) );
+} // end test_str_substring( )
+
+void test_str_split( void )
+{
+    printf( "\n\n> TEST str_split\n\n" );
+
+    char str[] = "Hello, World!";
+    char delimiter = ' ';
+    char** ret = str_split( str, delimiter );
+    printf( "str_split( \"%s\", '%c' ) = [ ", str, delimiter );
+    for( size_t i = 0; *(ret+i) != NULL; i++ )
+    {
+        printf( "\"%s\" ", *(ret+i) );
+    } // end for
+    printf( "]\n" );
+} // end test_str_split( )
+
+void test_str_left_trim( void )
+{
+    printf( "\n\n> TEST str_left_trim\n\n" );
+
+    char str[] = "    Hello, World!";
+    printf( "str_left_trim( \"%s\" ) = \"%s\"\n", str, str_left_trim( str ) );
+} // end test_str_left_trim( )
+
+void test_str_right_trim( void )
+{
+    printf( "\n\n> TEST str_right_trim\n\n" );
+
+    char str[] = "Hello, World!    ";
+    printf( "str_right_trim( \"%s\" ) = \"%s\"\n", str, str_right_trim( str ) );
+} // end test_str_right_trim( )
+
+void test_str_trim( void )
+{
+    printf( "\n\n> TEST str_trim\n\n" );
+
+    char str[] = "    Hello, World!    ";
+    printf( "str_trim( \"%s\" ) = \"%s\"\n", str, str_trim( str ) );
+} // end test_str_trim( )
+
+void test_str_duplicate( void )
+{
+    printf( "\n\n> TEST str_duplicate\n\n" );
+
+    char str[] = "Hello, World!";
+    printf( "str_duplicate( \"%s\" ) = \"%s\"\n", str, str_duplicate( str ) );
+} // end test_str_duplicate( )
+
+void test_str_replace_char( void )
+{
+    printf( "\n\n> TEST str_replace_char\n\n" );
+
+    char str[] = "Hello, World!";
+    char oldchr = 'o';
+    char newchr = '0';
+    printf( "str_replace_char( \"%s\", '%c', '%c' ) = \"%s\"\n", str, oldchr, newchr, str_replace_char( str, oldchr, newchr ) );
+} // end test_str_replace_char( )
+
+void test_str_contains( void )
+{
+    printf( "\n\n> TEST str_contains\n\n" );
+
+    char str[] = "Hello, World!";
+    char src[] = "World";
+    bool ret = str_contains( str, src );
+    printf( "str_contains( \"%s\", \"%s\" ) = %s\n", str, src, ret ? "true" : "false" );
+} // end test_str_contains( )
+
+void test_str_equals( void )
+{
+    printf( "\n\n> TEST str_equals\n\n" );
+
+    char str1[] = "Hello, World!";
+    char str2[] = "Hello, World!";
+    bool ret = str_equals( str1, str2 );
+    printf( "str_equals( \"%s\", \"%s\" ) = %s\n", str1, str2, ret ? "true" : "false" );
+} // end test_str_equals( )
+
+int main( void ) 
+{
+    test_str_len( );
+    test_str_copy( );
+    test_str_concat( );
+    test_str_char( );
+    test_str_compare( );
+    test_str_first_index_of( );
+    test_str_last_index_of( );
+    test_str_substring( );
+    test_str_split( );
+    test_str_left_trim( );
+    test_str_right_trim( );
+    test_str_trim( );
+    test_str_duplicate( );
+    test_str_replace_char( );
+    test_str_contains( );
+    test_str_equals( );
 
     return ( 0 );
-} // end main ( )
+} // main()
+
