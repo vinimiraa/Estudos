@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 241.5
   },
   "right": {
     "id": "c8659ee5e109d427",
@@ -173,9 +173,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "c50a4587ba2a66a5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -192,7 +202,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6564ec508473af8a",
+  "active": "d7dd2bd579630368",
   "lastOpenFiles": [
     "EP/00_Sumario_EP.md",
     "EP/01_Introdução.md",
