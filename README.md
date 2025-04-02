@@ -1,5 +1,8 @@
 # 🤓 Repositório de Estudos
 
+> [!IMPORTANT]
+> **PASSEI A MAIORIA DAS COISAS PARA O MEU REPOSITÓRIO PRINCIPAL**
+
 - Meu repositório principal: [vinimiraa](https://github.com/vinimiraa/CC-PUCMG)
 
 ## 📝 Descrição
