@@ -15,6 +15,7 @@ Exemplo:
 | **TOTAL**     |         **20**          |          **1**          |
 
 Frequência Absoluta ($Fa$).
+
 Frequência Relativa ($Fr$).
 
 $$
