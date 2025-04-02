@@ -13,6 +13,7 @@ Exemplo:
 | Azuis         |            2            |          0,10           |
 | Verdes        |            1            |          0,05           |
 | **TOTAL**     |         **20**          |          **1**          |
+
 Frequência Absoluta ($Fa$).
 Frequência Relativa ($Fr$).
 
