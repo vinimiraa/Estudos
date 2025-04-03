@@ -16,16 +16,25 @@
 		3. Censo
 		4. Amostragem
 2. [[02_Estatistica_Descritiva]]
-	1. Dados Qualitativos
-		1. Tabela de Frequência
-		2. Gráfico de Setores
-		3. Gráfico de Barras
-		4. Gráfico de Pareto
-	2. Medidas de Tendência Central
+	1. Tabela de Frequência
+		1. Construção para Variáveis Quantitativas
+	2. Representação Gráfica de Variáveis Quantitativas
+		1. Histograma
+		2. Diagrama de Pontos
+		3. Diagrama de Ramos e Folhas
+	3. Medidas de Tendência Central
 		1. Média
 		2. Mediana
 		3. Moda
 		4. Ponto Médio
 		5. Exemplo
-	3. Medida de Variabilidade
-		1. Desvio Padrão
+	4. Medidas Separativas
+		1. Quartis
+	5. Medidas de Variabilidade (Dispersão)
+		1. Amplitude da Amostra
+		2. Variância
+		3. Desvio-Padrão
+		4. Coeficiente de Variação
+		5. Amplitude Interquartílica
+	6. Diagrama de Caixa (*BoxPlot*)
+

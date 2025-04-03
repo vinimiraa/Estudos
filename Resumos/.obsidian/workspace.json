@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c3eaa551de577032",
+        "id": "da7958907d878388",
         "type": "tabs",
         "children": [
           {
-            "id": "6564ec508473af8a",
+            "id": "fe36a00508d87e73",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -189,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 259.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,15 +202,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7dd2bd579630368",
+  "active": "fe36a00508d87e73",
   "lastOpenFiles": [
+    "Pasted image 20250403203201.png",
+    "EP/02_Estatistica_Descritiva.md",
     "EP/00_Sumario_EP.md",
+    "EP/images/exemplo_boxplot.png",
+    "EP/images/exemplo_diagrama_de_ramos_e_folhas.png",
+    "EP/images/exemplo_diagrama_de_pontos.png",
+    "EP/images/representacao_quartis.png",
     "EP/01_Introdução.md",
     "AEDs_III/01_Arvore_B_B+.md",
     "AEDs_III/00_Sumario_AED3.md",
     "AC_I/00_Sumario_AC1.md",
     "TESTE.md",
-    "EP/02_Estatistica_Descritiva.md",
     "EP/images/ex_grafico_de_barras.png",
     "EP/images",
     "EP",
@@ -244,12 +249,6 @@
     "ES1/Diagrama_e_Modularizacao.txt",
     "AC_I/images/mealy_moore.png",
     "AC_I/images/seq_1101.png",
-    "AC_I/images/half_diff.png",
-    "AC_I/images/full_adder.png",
-    "AC_I/images/full_diff.png",
-    "AC_I/images/diagrama_de_estados.png",
-    "teste.md",
-    "Pasted image 20250328152147.png",
     "Sem título.canvas"
   ]
 }
