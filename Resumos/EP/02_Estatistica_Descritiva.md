@@ -80,10 +80,10 @@ Exemplo:
 
 ### Média
 
-A média ($\bar{x}$) é o **valor que está no centro das distancias dos dados** e é obtido pela soma de todos os valores, dividida pelo número de valores (tamanho da amostra $n$).
+A média ($\overline{x}$) é o **valor que está no centro das distancias dos dados** e é obtido pela soma de todos os valores, dividida pelo número de valores (tamanho da amostra $n$).
 
 $$
-\bar{x} = \frac{x_1 + x_2 + x_3 + ... + x_n}{n} = \frac{\sum_{i=1}^{n} x_i}{n}
+\overline{x} = \frac{x_1 + x_2 + x_3 + ... + x_n}{n} = \frac{\sum_{i=1}^{n} x_i}{n}
 $$
 
 ### Mediana
@@ -120,7 +120,7 @@ Um instrutor registra a média de faltas de seus alunos em determinado semestre.
 
 > 2 4 2 0 40 2 4 3 6
 
-**Média**: $\bar{x} = \frac{\sum x}{n}$    $\rightarrow$    $\sum x = 63$    $n = 9$    $\rightarrow$    $\bar x = \frac{63}{9} = 7$
+**Média**: $\overline{x} = \frac{\sum x}{n}$    $\rightarrow$    $\sum x = 63$    $n = 9$    $\rightarrow$    $\overline x = \frac{63}{9} = 7$
 
 **Mediana**: 
 - Ordenar:
@@ -157,7 +157,7 @@ $$a = máx - min$$
 A notação é $s^2$ e é calculada como a soma dos desvios ao quadrado, dividida por $n-1$, ou seja,
 
 $$
-s^2 = \frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n-1}
+s^2 = \frac{\sum_{i=1}^{n}(x_i - \overline{x})^2}{n-1}
 $$
 
 O denominador $n-1$ é chamado *graus de liberdade da amostra*. Para calcular a variância da população (chamada $𝜎^2$), a soma dos desvios ao quadrado é dividida por $N$. 
@@ -167,15 +167,15 @@ O denominador $n-1$ é chamado *graus de liberdade da amostra*. Para calcular a 
 O desvio-padrão é um valor que possui a mesma unidade de medida dos dados originais. Por definição, o **é a raiz quadrada, com sinal positivo, da variância**. O desvio-padrão da amostra é denotado por 𝑠 e pode ser calculado através da fórmula:
 
 $$
-s = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n-1}} \rightarrow \sqrt{variancia}
+s = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \overline{x})^2}{n-1}} \rightarrow \sqrt{variancia}
 $$
 
 ### Coeficiente de Variação
 
-O coeficiente de variação ($CV$) é um índice relativo de dispersão que compara o desvio-padrão ($s$) com a média ($\bar{x}$) e **fornece uma medida de homogeneidade dos dados**. É geralmente expresso em %, e é calculado pela fórmula:
+O coeficiente de variação ($CV$) é um índice relativo de dispersão que compara o desvio-padrão ($s$) com a média ($\overline{x}$) e **fornece uma medida de homogeneidade dos dados**. É geralmente expresso em %, e é calculado pela fórmula:
 
 $$
-CV = \frac{s}{\bar{x}}*100 \rightarrow \frac{desvio\_padrao}{media}*100
+CV = \frac{s}{\overline{x}}*100 \rightarrow \frac{desvio\_padrao}{media}*100
 $$
 
 ### Amplitude Interquartílica
