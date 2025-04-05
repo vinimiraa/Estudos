@@ -6,15 +6,21 @@ Relaciona uma variável categórica com suas **frequências absolutas e relativa
 
 ### Construção para Variáveis Quantitativas 
 
-1. Determinar o número de classes1 . Uma regra prática para determinar o número de classes é a seguinte: número de classes = $k$ = $\sqrt{n}$; 
+1. Determinar o número de classes1 . Uma regra prática para determinar o número de classes é a seguinte: 
+	
+	$$numero\_de\_classes = k = \sqrt{n}$$
 	
 	>É recomendado que o número de classes esteja entre 4 e 10. Também pode ser calculado através da fórmula de *Sturges*: $k = 1 + \log_2(n)$
 	
 2. Identifique o maior valor ($máx$) e o menor valor ($mín$) da amostra; 
 	
-3. Calcule a amplitude total dos dados ($a$): $a$ = $máx$ – $mín$; 
+3. Calcule a amplitude total dos dados ($a$): 
+	
+	$$a = max - min$$ 
 	
 4. Calcule o comprimento de cada intervalo, ou seja, a amplitude das classes ($h$): 
+	
+	$$h = \frac{a}{k} \rightarrow h = \frac{amplitude}{numero\_de\_classes}$$
 	
 5. Arredonde o valor de $h$ conforme as regras de arredondamento. Este número deve ter a mesma quantidade de casas decimais dos dados da amostra;
 	
@@ -91,7 +97,7 @@ $$
 A mediana ($Md$) é o **valor que está no centro do conjunto ordenado**, assim tem a mesma quantidade de valores acima e abaixo de si.
 
 - Se $n$ ímpar: mediana = $\frac{n+1}{2}$
-- Se $n$ par: mediana = $\frac{n}{2}$ e $\frac{n+1}{2}$
+- Se $n$ par: mediana = $\frac{\frac{n}{2} + (\frac{n}{2}+1)}{2}$
 
 ### Moda
 
@@ -141,6 +147,31 @@ Os quartis são pontos que dividem o conjunto de dados ordenados em quatro parte
 
 ![[representacao_quartis.png]]
 
+Assim:
+
+- 25 % dos dados estão abaixo de Q1
+	
+- 50 % dos dados estão abaixo de Q2
+	
+- 75 % dos dados estão abaixo de Q3
+
+Para encontrar os quartis devemos:
+
+1. Ordenar dos dados de forma crescente;
+	
+2. Encontrar a localização do quartil $k$, logo: 
+	
+	$$LQ_k = \frac{k * ( n + 1)}{4}$$
+	
+3. Se $LQ_k$ for inteiro, o quartil $k$ será o valor no posto $LQ_k$, casos contrário será a média ponderada dos dois valores mais próximos ao posto $LQ_k$.
+
+> [!IMPORTANT] Importante
+> A fórmula acima acha-se a **posição** do valor:
+> 	
+> - Se a **posição for um número inteiro**, então o **valor do quartil é o valor que está na posição** encontrada. 
+> 	
+> - Caso contrário, se o a **posição for um número real (fracionário)**, então o **valor do quartil será uma média** dos dois valores mais próximos.
+
 
 ## **Medidas de Variabilidade (Dispersão)**
 
@@ -178,6 +209,9 @@ $$
 CV = \frac{s}{\overline{x}}*100 \rightarrow \frac{desvio\_padrao}{media}*100
 $$
 
+- Se $CV ≤ 20\%$ o conjunto é dito **homogêneo**;  
+	
+- Se $CV > 20\%$ o conjunto é dito **heterogêneo**.
 ### Amplitude Interquartílica
 
 Também chamada de Distância Interquartílica, Amplitude Interquartil, Faixa Interquartil, Desvio Interquartílico
