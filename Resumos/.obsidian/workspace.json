@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EP/02_Estatistica_Descritiva.md",
-                "mode": "source",
+                "file": "EP/03_Probabilidade.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "02_Estatistica_Descritiva"
+              "title": "03_Probabilidade"
             }
           }
         ]
