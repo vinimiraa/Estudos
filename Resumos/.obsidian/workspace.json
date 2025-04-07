@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e0e55eeed9cedb2c",
+        "id": "3edfabd0cddc4243",
         "type": "tabs",
         "children": [
           {
-            "id": "e1153766a1e2e991",
+            "id": "42f3e5c49c49648d",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Resumos/EP/02_Estatistica_Descritiva.md",
-                "bFile": "Resumos/EP/02_Estatistica_Descritiva.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 02_Estatistica_Descritiva"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
             }
           }
         ]
@@ -121,6 +117,66 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "abdb3efb519cce6f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a10c6b6200b8920e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "cbc926b76901cf82",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d809408279fb198b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
           }
         ],
         "currentTab": 2
@@ -140,21 +196,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e1153766a1e2e991",
+  "active": "42f3e5c49c49648d",
   "lastOpenFiles": [
+    "EP/images/evento_uniao.png",
+    "EP/images/evento_mutuamente_exclusivo.png",
+    "EP/images/evento_intersecao.png",
+    "EP/images/evento_complementar.png",
+    "EP/04_Distribuicoes_Discretas_de_Probabilidade.md",
+    "EP/03_Probabilidade.md",
     "EP/02_Estatistica_Descritiva.md",
-    "Pasted image 20250403203201.png",
+    "AC_I/02_Algebra_de_Boole.md",
+    "AC_I/00_Sumario_AC1.md",
+    "EP/01_Introdução.md",
     "EP/00_Sumario_EP.md",
+    "EP/images/representacao_quartis.png",
+    "EP/images/ex_grafico_de_barras.png",
+    "Pasted image 20250403203201.png",
     "EP/images/exemplo_boxplot.png",
     "EP/images/exemplo_diagrama_de_ramos_e_folhas.png",
     "EP/images/exemplo_diagrama_de_pontos.png",
-    "EP/images/representacao_quartis.png",
-    "EP/01_Introdução.md",
     "AEDs_III/01_Arvore_B_B+.md",
     "AEDs_III/00_Sumario_AED3.md",
-    "AC_I/00_Sumario_AC1.md",
     "TESTE.md",
-    "EP/images/ex_grafico_de_barras.png",
     "EP/images",
     "EP",
     "Nova pasta",
@@ -163,7 +226,6 @@
     "ES1/01_Diagrama_e_Modularizacao.md",
     "ES1/00_Sumario_ES1.md",
     "IA/01_Introducao_a_Aprendizagem_de_Maquina.md",
-    "IA/Images/Machine_Learning_Algorithms_Map.png",
     "IA/02_Arvore_de_Decisao.md",
     "IA/03_Pre_Processamento_de_Dados.md",
     "IA/00_Sumario_IA.md",
@@ -174,19 +236,13 @@
     "LP/01_Linguagens_de_Programacao.md",
     "AC_I/04_Maquinas_de_Estados.md",
     "AC_I/03_Circuitos_Logicos.md",
-    "AC_I/02_Algebra_de_Boole.md",
-    "AC_I/images/half_adder.png",
-    "Resumos/AC_I/images/full_adder.png.md",
     "Resumos/AC_I/images",
     "Resumos/AC_I",
     "Resumos",
-    "ACs/Resumos/Algebra_de_Boole.md",
     "ACs/Resumos",
     "ACs",
     "LP",
     "ES1/Diagrama_e_Modularizacao.txt",
-    "AC_I/images/mealy_moore.png",
-    "AC_I/images/seq_1101.png",
     "Sem título.canvas"
   ]
 }

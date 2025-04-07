@@ -1,4 +1,4 @@
-# Estatística Descritiva
+# **Estatística Descritiva**
 
 ## **Tabela de Frequência**
 
@@ -6,9 +6,11 @@ Relaciona uma variável categórica com suas **frequências absolutas e relativa
 
 ### Construção para Variáveis Quantitativas 
 
-1. Determinar o número de classes1 . Uma regra prática para determinar o número de classes é a seguinte: 
+1. Determinar o número de classes. Uma regra prática para determinar o número de classes é a seguinte: 
 	
-	$$numero\_de\_classes = k = \sqrt{n}$$
+	$$
+	\text{número de classes} = k = \sqrt{n}
+	$$
 	
 	>É recomendado que o número de classes esteja entre 4 e 10. Também pode ser calculado através da fórmula de *Sturges*: $k = 1 + \log_2(n)$
 	
@@ -16,11 +18,15 @@ Relaciona uma variável categórica com suas **frequências absolutas e relativa
 	
 3. Calcule a amplitude total dos dados ($a$): 
 	
-	$$a = max - min$$ 
+	$$
+	a = \text{máx} - \text{mín}
+	$$ 
 	
 4. Calcule o comprimento de cada intervalo, ou seja, a amplitude das classes ($h$): 
 	
-	$$h = \frac{a}{k} \rightarrow h = \frac{amplitude}{numero\_de\_classes}$$
+	$$
+	h = \frac{a}{k} \rightarrow h = \frac{\text{amplitude}}{\text{número de classes}}
+	$$
 	
 5. Arredonde o valor de $h$ conforme as regras de arredondamento. Este número deve ter a mesma quantidade de casas decimais dos dados da amostra;
 	
@@ -42,6 +48,8 @@ Relaciona uma variável categórica com suas **frequências absolutas e relativa
 ### Histograma
 
 Os dados apresentados no eixo das abscissas (eixo X) são numéricos e têm uma **ordem que deve ser obedecida rigorosamente**. Por ser um gráfico resultante da tabela de frequências, essa ordem é a mesma apresentada na tabela. **Os números devem, portanto, aparecer em sequência, quer existam ou não dados com determinados valores**. A **altura das barras pode representar tanto a frequência absoluta quanto a frequência relativa**.
+
+[Tipos de Histograma e Histograma com Python](https://www.alura.com.br/artigos/o-que-e-um-histograma)
 
 ### Diagrama de Pontos
 
@@ -84,7 +92,7 @@ Exemplo:
 
 ## **Medidas de Tendência Central**
 
-### Média
+### Média ($\overline{x}$)
 
 A média ($\overline{x}$) é o **valor que está no centro das distancias dos dados** e é obtido pela soma de todos os valores, dividida pelo número de valores (tamanho da amostra $n$).
 
@@ -92,14 +100,14 @@ $$
 \overline{x} = \frac{x_1 + x_2 + x_3 + ... + x_n}{n} = \frac{\sum_{i=1}^{n} x_i}{n}
 $$
 
-### Mediana
+### Mediana ($Me$)
 
 A mediana ($Md$) é o **valor que está no centro do conjunto ordenado**, assim tem a mesma quantidade de valores acima e abaixo de si.
 
-- Se $n$ ímpar: mediana = $\frac{n+1}{2}$
-- Se $n$ par: mediana = $\frac{\frac{n}{2} + (\frac{n}{2}+1)}{2}$
+- Se $n$ ímpar: $$\text{mediana} = \frac{n+1}{2}$$
+- Se $n$ par: $$\text{mediana} = \frac{\frac{n}{2} + (\frac{n}{2}+1)}{2}$$
 
-### Moda
+### Moda ($Mo$)
 
 A moda ($Mo$) é o **valor com a maior frequência** no conjunto de dados.
 
@@ -113,11 +121,13 @@ Um conjunto de dados pode ser:
 	
 - **Multimodal**: tem mais de duas modas
 
-### Ponto Médio
+### Ponto Médio ($Pm$)
 
 O ponto médio ($Pm$) é **valor que está no centro da amplitude**.
 
-$$Pm = \frac{Xmáx +Xmin}{2}$$
+$$
+Pm = \frac{Xmáx +Xmin}{2}
+$$
 
 ---
 ### Exemplo
@@ -173,15 +183,17 @@ Para encontrar os quartis devemos:
 > - Caso contrário, se o a **posição for um número real (fracionário)**, então o **valor do quartil será uma média** dos dois valores mais próximos.
 
 
-## **Medidas de Variabilidade (Dispersão)**
+## **Medidas de Variabilidade (ou Dispersão)**
 
-### Amplitude da Amostra
+### Amplitude da Amostra ($a$)
 
 A amplitude é simplesmente a **diferença entre o maior e o menor valor**:
 
-$$a = máx - min$$
+$$
+a = \text{máx} - \text{mín}
+$$
 
-### Variância
+### Variância ($s^2$)
 
 **Mede a variabilidade dos dados** através dos desvios em relação à média. *Desvio em relação à média* é a diferença entre cada valor observado e a média do conjunto de dados.
 
@@ -193,32 +205,35 @@ $$
 
 O denominador $n-1$ é chamado *graus de liberdade da amostra*. Para calcular a variância da população (chamada $𝜎^2$), a soma dos desvios ao quadrado é dividida por $N$. 
 
-### Desvio-Padrão
+### Desvio-Padrão ($s$)
 
 O desvio-padrão é um valor que possui a mesma unidade de medida dos dados originais. Por definição, o **é a raiz quadrada, com sinal positivo, da variância**. O desvio-padrão da amostra é denotado por 𝑠 e pode ser calculado através da fórmula:
 
 $$
-s = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \overline{x})^2}{n-1}} \rightarrow \sqrt{variancia}
+s = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \overline{x})^2}{n-1}} \rightarrow \sqrt{\text{variância}}
 $$
 
-### Coeficiente de Variação
+### Coeficiente de Variação ($CV$)
 
 O coeficiente de variação ($CV$) é um índice relativo de dispersão que compara o desvio-padrão ($s$) com a média ($\overline{x}$) e **fornece uma medida de homogeneidade dos dados**. É geralmente expresso em %, e é calculado pela fórmula:
 
 $$
-CV = \frac{s}{\overline{x}}*100 \rightarrow \frac{desvio\_padrao}{media}*100
+CV = \frac{s}{\overline{x}}*100 \rightarrow \frac{\text{desvio padrão}}{\text{média}}*100
 $$
 
 - Se $CV ≤ 20\%$ o conjunto é dito **homogêneo**;  
 	
 - Se $CV > 20\%$ o conjunto é dito **heterogêneo**.
-### Amplitude Interquartílica
+
+### Amplitude Interquartílica ($AIQ$)
 
 Também chamada de Distância Interquartílica, Amplitude Interquartil, Faixa Interquartil, Desvio Interquartílico
 
 É calculada como a distância entre o $Q_3$ e o $Q_1$:
 
-$$AIQ = Q_3 - Q_1$$
+$$
+AIQ = Q_3 - Q_1
+$$
 
 Como existem 50% dos valores entre o $Q_1$ e o $Q_3$, quanto maior o valor do $IQ$, maior a dispersão do conjunto de dados. A melhor forma de interpretar o $IQ$ é através do diagrama de caixa (*Boxplot*).
 
