@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3edfabd0cddc4243",
+        "id": "24800eb565bde5e4",
         "type": "tabs",
         "children": [
           {
-            "id": "42f3e5c49c49648d",
+            "id": "dad7ba9e655da7c1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "EP/02_Estatistica_Descritiva.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "02_Estatistica_Descritiva"
             }
           }
         ]
@@ -196,15 +200,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42f3e5c49c49648d",
+  "active": "dad7ba9e655da7c1",
   "lastOpenFiles": [
+    "EP/02_Estatistica_Descritiva.md",
+    "EP/03_Probabilidade.md",
+    "EP/04_Distribuicoes_Discretas_de_Probabilidade.md",
     "EP/images/evento_uniao.png",
     "EP/images/evento_mutuamente_exclusivo.png",
     "EP/images/evento_intersecao.png",
     "EP/images/evento_complementar.png",
-    "EP/04_Distribuicoes_Discretas_de_Probabilidade.md",
-    "EP/03_Probabilidade.md",
-    "EP/02_Estatistica_Descritiva.md",
     "AC_I/02_Algebra_de_Boole.md",
     "AC_I/00_Sumario_AC1.md",
     "EP/01_Introdução.md",

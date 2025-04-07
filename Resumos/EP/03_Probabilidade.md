@@ -125,6 +125,7 @@ Pela regra da multiplicação:
 
 $$P(A \cap B) = P(A) \cdot P(B)$$
 
+
 ## **Teorema de Bayes**
 
 É utilizado quando se conhece a probabilidade de um evento condicional e deseja-se inverter essa condição.
