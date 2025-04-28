@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "24800eb565bde5e4",
+        "id": "f914b2769aeaee9d",
         "type": "tabs",
         "children": [
           {
-            "id": "dad7ba9e655da7c1",
+            "id": "eb8932bd94e05f70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EP/03_Probabilidade.md",
-                "mode": "preview",
-                "source": true
+                "file": "MAD/03_Metodologia_para_Planejamento_do_Sistema.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "03_Probabilidade"
+              "title": "03_Metodologia_para_Planejamento_do_Sistema"
             }
           }
         ]
@@ -94,12 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "MAD/03_Metodologia_para_Planejamento_do_Sistema.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de 03_Metodologia_para_Planejamento_do_Sistema"
             }
           },
           {
@@ -200,10 +201,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dad7ba9e655da7c1",
+  "active": "eb8932bd94e05f70",
   "lastOpenFiles": [
-    "EP/02_Estatistica_Descritiva.md",
+    "MAD/01_Definições.md",
+    "MAD/02_Ciclo_de_Vida_de_um_Sistema.md",
+    "MAD/03_Metodologia_para_Planejamento_do_Sistema.md",
+    "MAD/images/ciclo_de_vida_do_sistema.png",
+    "MAD/images",
     "EP/03_Probabilidade.md",
+    "MAD",
+    "EP/02_Estatistica_Descritiva.md",
     "EP/04_Distribuicoes_Discretas_de_Probabilidade.md",
     "EP/images/evento_uniao.png",
     "EP/images/evento_mutuamente_exclusivo.png",
@@ -218,7 +225,6 @@
     "Pasted image 20250403203201.png",
     "EP/images/exemplo_boxplot.png",
     "EP/images/exemplo_diagrama_de_ramos_e_folhas.png",
-    "EP/images/exemplo_diagrama_de_pontos.png",
     "AEDs_III/01_Arvore_B_B+.md",
     "AEDs_III/00_Sumario_AED3.md",
     "TESTE.md",
@@ -238,15 +244,11 @@
     "LP/03_Sequenciadores.md",
     "LP/02_Abstracao_e_Encapsulamento.md",
     "LP/01_Linguagens_de_Programacao.md",
-    "AC_I/04_Maquinas_de_Estados.md",
-    "AC_I/03_Circuitos_Logicos.md",
     "Resumos/AC_I/images",
     "Resumos/AC_I",
     "Resumos",
     "ACs/Resumos",
     "ACs",
-    "LP",
-    "ES1/Diagrama_e_Modularizacao.txt",
     "Sem título.canvas"
   ]
 }
