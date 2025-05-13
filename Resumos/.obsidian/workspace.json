@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f914b2769aeaee9d",
+        "id": "e4d8e11729b7926a",
         "type": "tabs",
         "children": [
           {
-            "id": "eb8932bd94e05f70",
+            "id": "adba8bd79696396d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAD/03_Metodologia_para_Planejamento_do_Sistema.md",
+                "file": "Iniciacao-Cientifica_Silvio/Estudo - Hierarchical Segmentations with Graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03_Metodologia_para_Planejamento_do_Sistema"
+              "title": "Estudo - Hierarchical Segmentations with Graphs"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAD/03_Metodologia_para_Planejamento_do_Sistema.md",
+                "file": "Iniciacao-Cientifica_Silvio/Estudo - Hierarchical Segmentations with Graphs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 03_Metodologia_para_Planejamento_do_Sistema"
+              "title": "Sumário de Estudo - Hierarchical Segmentations with Graphs"
             }
           },
           {
@@ -201,11 +201,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb8932bd94e05f70",
+  "active": "adba8bd79696396d",
   "lastOpenFiles": [
+    "Iniciacao-Cientifica_Silvio/01 - Hierarchical Segmentations with Graphs.pdf",
+    "Iniciacao-Cientifica_Silvio/Estudo - Hierarchical Segmentations with Graphs.md",
+    "Iniciacao-Cientifica_Silvio/Estudo - Hierarchical Segmentations with Graphs.pdf",
+    "Sem título.md",
+    "Sem título",
+    "Iniciacao-Cientifica_Silvio",
+    "AEDs_III/01_Arvore_B_B+.md",
+    "MAD/03_Metodologia_para_Planejamento_do_Sistema.md",
     "MAD/01_Definições.md",
     "MAD/02_Ciclo_de_Vida_de_um_Sistema.md",
-    "MAD/03_Metodologia_para_Planejamento_do_Sistema.md",
     "MAD/images/ciclo_de_vida_do_sistema.png",
     "MAD/images",
     "EP/03_Probabilidade.md",
@@ -225,7 +232,6 @@
     "Pasted image 20250403203201.png",
     "EP/images/exemplo_boxplot.png",
     "EP/images/exemplo_diagrama_de_ramos_e_folhas.png",
-    "AEDs_III/01_Arvore_B_B+.md",
     "AEDs_III/00_Sumario_AED3.md",
     "TESTE.md",
     "EP/images",
@@ -241,14 +247,7 @@
     "IA/00_Sumario_IA.md",
     "IA/04_Naive_Bayes.md",
     "LP/04_Sistemas_de_Tipos.md",
-    "LP/03_Sequenciadores.md",
-    "LP/02_Abstracao_e_Encapsulamento.md",
-    "LP/01_Linguagens_de_Programacao.md",
     "Resumos/AC_I/images",
-    "Resumos/AC_I",
-    "Resumos",
-    "ACs/Resumos",
-    "ACs",
     "Sem título.canvas"
   ]
 }
