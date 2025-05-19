@@ -1,5 +1,4 @@
 # Resumo: Árvore Geradora Mínima, Algoritmo de Kruskal e de Prim
-
 ## Árvore (Tree)
 
 - Definição:
@@ -189,3 +188,46 @@
 	- Porém, se houver **arestas com pesos iguais**, é possível que diferentes algoritmos (ou diferentes execuções de um mesmo algoritmo) resultem em **MSTs distintas**, embora todas tenham o **mesmo custo total mínimo**.  
 		
 	- A diferença ocorre porque empates nas escolhas podem levar a diferentes estruturas, especialmente em presença de ciclos.
+
+## Árvore de Stainer (Stainer Tree)
+
+- Definição
+	
+	- Dado:
+		
+		- Um grafo **não direcionado e conexo** $G = (V, E)$ com pesos associados às arestas: $w: E \rightarrow \mathbb{R}^{+}$.
+			
+		- Um subconjunto de vértices terminais $T \subseteq V$.
+		
+	- Objetivo do problema da árvore de Steiner:
+		
+		- É encontrar um **subgrafo em forma de árvore** $H = (V', E')$ de $G$, tal que:
+				
+			- $T \subseteq V' \subseteq V$,
+			
+			- $H$ é conexo,
+				
+			- O **custo total** das arestas de $H$ (isto é, $\sum_{e \ \in \ E'} w(e)$) seja **mínimo**.
+			
+		- Ou, encontrar um **subgrafo com algum critério de otimização**.
+		
+	- Os vértices em $V' \setminus T$ são chamados de **pontos de Steiner**, são vértices **adicionados** à solução para conectar os terminais com menor custo.
+	
+- Comparação com MST:
+	
+| Árvore Geradora Mínima (MST)               | Árvore de Steiner                                     |
+| ------------------------------------------ | ----------------------------------------------------- |
+| Conecta **todos os vértices** do grafo     | Conecta apenas um subconjunto $T \subset V$           |
+| Não adiciona vértices extras               | Pode **adicionar vértices auxiliares** (Steiner)      |
+| Algoritmos eficientes como Kruskal e Prim  | Problema NP-difícil, exige aproximação ou busca exata |
+| Custo total mínimo sobre todos os vértices | Custo mínimo para conectar apenas os terminais        |
+	
+- Complexidade:
+	
+	- O problema da árvore de Steiner em grafos gerais é **NP-difícil**.
+		
+	- Nenhuma solução é conhecida para o problema da árvore de Steiner **em grafos**.
+
+---
+
+FIM

@@ -111,7 +111,7 @@ Seja $G = (V, E)$ um grafo direcionado. Para identificar as **componentes fortem
 1. Realizar uma busca em profundidade (**DFS**) a partir de um vértice arbitrário, registrando os **tempos de descoberta** e os **tempos de finalização** de cada vértice.
 2. Construir o **grafo transposto** $G^- = (V, E')$, no qual, para cada aresta $e = (u, v) \in E$, adiciona-se a aresta reversa $e' = (v, u)$ em $E'$.
 3. Realizar uma nova busca em profundidade sobre o grafo $G^-$, explorando os vértices na **ordem decrescente dos tempos de finalização** obtidos na primeira DFS.
-	1. A cada nova chamada recursiva da DFS no grafo transposto, atribuir um **rótulo** ou identificador à componente que está sendo explorada. Todos os vértices visitados nessa chamada pertencem à **mesma componente fortemente conexa**.
+	1. A cada nova chamada recursiva da DFS no grafo transposto, atribuir um **rótulo** ou identificador ao componente que está sendo explorada. Todos os vértices visitados nessa chamada pertencem ao **mesmo componente fortemente conexo**.
 4. Ao final, o número total de componentes fortemente conexas corresponde ao **número de rótulos diferentes** atribuídos.
 
 > [!NOTE] Observação
